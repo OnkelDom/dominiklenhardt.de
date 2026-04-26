@@ -1,69 +1,86 @@
-# Particle Jekyll Theme
+# dominiklenhardt.de
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+Statische Website fuer `dominiklenhardt.de`.
 
-The Theme features:
+Die Seite wird ohne Jekyll, Node.js oder sonstigen Build-Schritt betrieben. Das Repository enthaelt die produktiven HTML-, CSS- und Asset-Dateien direkt im Webroot. Dadurch ist der Betrieb bewusst einfach: Aenderung committen, nach `main` pushen, GitHub Actions synchronisiert den Stand per SFTP auf den Hetzner-Webspace.
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization blub
+## Architektur
 
-## Basic Setup
+- Quelle: GitHub Repository `OnkelDom/dominiklenhardt.de`
+- Zielsystem: Hetzner Webspace per SFTP
+- Zielpfad: Domain-Ordner `dominiklenhardt.de`
+- Deployment: GitHub Actions Workflow `.github/workflows/deploy.yml`
+- Auslieferung: statische Dateien, kein Server-seitiger Build
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+## Repository-Struktur
 
-## Site and User Settings
-
-You have to fill some informations on `_config.yml` to customize your site.
-
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
-
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+```text
+.
+├── .github/workflows/deploy.yml
+├── assets/
+│   ├── css/site.css
+│   ├── favicon/
+│   └── img/portfolio.png
+├── datenschutz.html
+├── impressum.html
+├── index.html
+└── README.md
 ```
 
-**Don't forget to change your url before you deploy your site!**
+## Lokale Bearbeitung
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+Dateien direkt bearbeiten, zum Beispiel:
 
-## Running the blog in local
+```bash
+vim index.html
+vim assets/css/site.css
+```
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+Lokale Vorschau:
 
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
+```bash
+python3 -m http.server 8080
+```
 
-## License
+Danach im Browser oeffnen:
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+```text
+http://localhost:8080/
+```
 
-## Credits
+## Deployment
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+Der Deploy laeuft automatisch bei jedem Push auf `main`.
+
+Manueller Start ist ebenfalls moeglich:
+
+```bash
+gh workflow run deploy.yml --repo OnkelDom/dominiklenhardt.de --ref main
+```
+
+Status pruefen:
+
+```bash
+gh run list --repo OnkelDom/dominiklenhardt.de --limit 5
+```
+
+## GitHub Secrets
+
+Der Workflow erwartet folgende Repository-Secrets:
+
+```text
+HETZNER_HOST
+HETZNER_PORT
+HETZNER_USER
+HETZNER_PASSWORD
+HETZNER_TARGET_DIR
+```
+
+Die Secrets duerfen nicht im Repository abgelegt werden. Der Zielordner wird ueber `HETZNER_TARGET_DIR` gesteuert und ist fuer diese Seite `dominiklenhardt.de`.
+
+## Betriebsnotizen
+
+- `CNAME` wird nicht mehr verwendet, weil die Seite nicht mehr ueber GitHub Pages ausgeliefert werden soll.
+- Jekyll-Konfigurationen, Layouts und Theme-Artefakte wurden entfernt.
+- Der Deploy-Workflow spiegelt den lokalen Webroot in den Hetzner-Domainordner und loescht entfernte Dateien dort ebenfalls.
+- DNS muss separat auf den Hetzner-Webspace zeigen; solange DNS noch auf GitHub Pages zeigt, ist der erfolgreiche SFTP-Deploy nicht oeffentlich sichtbar.
