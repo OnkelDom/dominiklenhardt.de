@@ -35,21 +35,26 @@ jobs:
           test -n "$HETZNER_PASSWORD"
           test -n "$HETZNER_TARGET_DIR"
 
-          mkdir -p public
+          build_dir="$RUNNER_TEMP/site"
+          rm -rf "$build_dir"
+          mkdir -p "$build_dir"
+
           rsync -a \
             --exclude='.git/' \
             --exclude='.github/' \
+            --exclude='.gitignore' \
             --exclude='.jekyll-cache/' \
             --exclude='_site/' \
             --exclude='_config.yml' \
             --exclude='_includes/' \
             --exclude='_layouts/' \
+            --exclude='CNAME' \
             --exclude='README.md' \
             --exclude='LICENSE.txt' \
-            ./ public/
+            ./ "$build_dir"/
 
           lftp -u "$HETZNER_USER","$HETZNER_PASSWORD" -p "$HETZNER_PORT" sftp://"$HETZNER_HOST" <<EOF
           set sftp:auto-confirm yes
-          mirror --reverse --delete --verbose public/ "$HETZNER_TARGET_DIR"/
+          mirror --reverse --delete --verbose "$build_dir"/ "$HETZNER_TARGET_DIR"/
           bye
           EOF
