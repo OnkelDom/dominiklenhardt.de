@@ -20,7 +20,7 @@ Die Seite wird ohne Jekyll, Node.js oder sonstigen Build-Schritt betrieben. Das 
 ├── assets/
 │   ├── css/site.css
 │   ├── favicon/
-│   └── img/portfolio.png
+│   └── img/portfolio-neu.png
 ├── datenschutz.html
 ├── impressum.html
 ├── index.html

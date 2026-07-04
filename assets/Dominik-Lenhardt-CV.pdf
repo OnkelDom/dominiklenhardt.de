@@ -1,5 +1,4 @@
 %PDF-1.4
-%âãÏÓ
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
@@ -13,105 +12,99 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<< /Length 4902 >>
+<< /Length 4128 >>
 stream
-q
 BT /F2 24.00 Tf 54.00 788.00 Td (Dominik Lenhardt) Tj ET
-BT /F2 12.00 Tf 54.00 761.00 Td (Systemarchitekt & DevOps Engineer) Tj ET
-BT /F1 9.50 Tf 54.00 743.00 Td (dominik@lenmail.de | github.com/OnkelDom | xing.com/profile/Dominik_Lenhardt/cv/) Tj ET
+BT /F2 12.00 Tf 54.00 761.00 Td (Vorstandsmitglied für Systemarchitektur und DevOps) Tj ET
+BT /F1 9.50 Tf 54.00 743.00 Td (dominik@lenmail.de | github.com/OnkelDom | linkedin.com/in/dominik-lenhardt-086645226) Tj ET
 0.48 0.72 0.85 RG 1 w 54 719.00 m 541 719.00 l S
 BT /F2 13.00 Tf 54.00 697.00 Td (Profil) Tj ET
-BT /F1 9.40 Tf 54.00 679.00 Td (Systemarchitekt und DevOps Engineer mit über 10 Jahren IT-Erfahrung. Schwerpunkt auf) Tj ET
-BT /F1 9.40 Tf 54.00 666.50 Td (hochverfügbaren Cloud-, On-Prem- und Hybrid-Infrastrukturen, Proxmox/Ceph, Azure, Microsoft 365,) Tj ET
-BT /F1 9.40 Tf 54.00 654.00 Td (Automatisierung, CI/CD und GitOps.) Tj ET
-BT /F1 9.40 Tf 54.00 637.50 Td (Ich begleite Architektur, Migration und Betrieb mit Fokus auf Sicherheit, Wiederholbarkeit und) Tj ET
-BT /F1 9.40 Tf 54.00 625.00 Td (nachvollziehbare Betriebsprozesse.) Tj ET
-BT /F2 13.00 Tf 54.00 600.50 Td (Kernkompetenzen) Tj ET
-BT /F1 9.40 Tf 66.00 582.50 Td (- Systemarchitektur & Design: Hochverfügbare On-Prem- und Cloud-Infrastrukturen,) Tj ET
-BT /F1 9.40 Tf 66.00 570.00 Td (  Redundanzkonzepte, Skalierbarkeit.) Tj ET
-BT /F1 9.40 Tf 66.00 553.50 Td (- Infrastructure as Code & GitOps: Automatisierte Deployments, Versionskontrolle für) Tj ET
-BT /F1 9.40 Tf 66.00 541.00 Td (  Infrastruktur, Terraform und Ansible.) Tj ET
-BT /F1 9.40 Tf 66.00 524.50 Td (- DevOps & CI/CD: Deployment-Pipelines von VMs bis Applikationen, GitOps-Workflows und) Tj ET
-BT /F1 9.40 Tf 66.00 512.00 Td (  Provisionierungsautomation.) Tj ET
-BT /F1 9.40 Tf 66.00 495.50 Td (- Cloud-Transformation & Migration: Hybrid-Setups, VMware-zu-Proxmox/Ceph-Migrationen,) Tj ET
-BT /F1 9.40 Tf 66.00 483.00 Td (  Azure- und M365-Implementierung.) Tj ET
-BT /F1 9.40 Tf 66.00 466.50 Td (- Monitoring & Observability: Prometheus, Loki, Grafana, Logging, Alerting und) Tj ET
-BT /F1 9.40 Tf 66.00 454.00 Td (  Performance-Optimierung.) Tj ET
-BT /F1 9.40 Tf 66.00 437.50 Td (- High Availability & Security: Disaster Recovery, Zero-Trust Security, Backup-Strategien,) Tj ET
-BT /F1 9.40 Tf 66.00 425.00 Td (  DNS- und Netzwerkarchitektur.) Tj ET
-BT /F2 13.00 Tf 54.00 400.50 Td (Technologien) Tj ET
-BT /F1 9.40 Tf 54.00 382.50 Td (Proxmox, Ceph, Azure, M365, Docker, Ansible, Terraform, Git, GitHub, Debian, Ubuntu, Rocky) Tj ET
-BT /F1 9.40 Tf 54.00 370.00 Td (Linux, Prometheus, Grafana, PostgreSQL, MariaDB, Redis, HAProxy, Keepalived, OPNsense, Python,) Tj ET
-BT /F1 9.40 Tf 54.00 357.50 Td (Bash, Bind, Unbound, Cloudflare, IPv6, Let's Encrypt.) Tj ET
-BT /F2 13.00 Tf 54.00 333.00 Td (Berufserfahrung) Tj ET
-BT /F2 10.20 Tf 54.00 315.00 Td (07.2024 - heute | ATIS systems GmbH | Systemarchitekt und DevOps Engineer) Tj ET
-BT /F1 9.40 Tf 54.00 301.00 Td (Planung von Netzwerk- und Rechenzentrumsarchitekturen inklusive Strom-, Klima-, Rack- und) Tj ET
-BT /F1 9.40 Tf 54.00 288.50 Td (Kapazitätsplanung. Design und Betrieb georedundanter Proxmox-/Ceph-Cluster über) Tj ET
-BT /F1 9.40 Tf 54.00 276.00 Td (Layer-2-/Layer-3- und Dark-Fibre-Anbindungen. OPNsense HA-Firewall-Architekturen, ransomware-) Tj ET
-BT /F1 9.40 Tf 54.00 263.50 Td (resiliente Backup-Konzepte mit Veeam und Proxmox Backup Server, hochverfügbare Netzwerke nach) Tj ET
-BT /F1 9.40 Tf 54.00 251.00 Td (BSI-Grundschutz, VMware-zu-Proxmox-Migrationen, automatisierte Rocky Linux/RHEL Provisionierung) Tj ET
-BT /F1 9.40 Tf 54.00 238.50 Td (mit Ansible und Kickstart sowie Git-versionierte Baseline-Infrastruktur mit DNS, NTP, PKI, IdP,) Tj ET
-BT /F1 9.40 Tf 54.00 226.00 Td (HAProxy und Keepalived.) Tj ET
-BT /F2 10.20 Tf 54.00 209.50 Td (02.2023 - heute | Dominik Lenhardt IT-Services | Freelancer) Tj ET
-BT /F1 9.40 Tf 54.00 195.50 Td (Planung, Aufbau und Betrieb heterogener Kundenumgebungen in On-Prem-, Cloud-only- und Hybrid-) Tj ET
-BT /F1 9.40 Tf 54.00 183.00 Td (Szenarien. HA Collaboration-Umgebungen, Microsoft-365-Tenants mit Intune, Linux-Plattformdienste) Tj ET
-BT /F1 9.40 Tf 54.00 170.50 Td (auf Ubuntu, Python-basierte Integrationsstrecken über Message Queues, APIs und SFTP,) Tj ET
-BT /F1 9.40 Tf 54.00 158.00 Td (georedundante Proxmox-Plattformen und hochverfügbare Container-Orchestrierung mit Docker Swarm.) Tj ET
-BT /F2 10.20 Tf 54.00 141.50 Td (04.2023 - 06.2024 | RCW Reifengroßhandel GmbH | Leiter IT) Tj ET
-BT /F1 9.40 Tf 54.00 127.50 Td (Modernisierung einer Netzwerklandschaft über drei Standorte mit Dual-Stack, WLAN, Segmentierung,) Tj ET
-BT /F1 9.40 Tf 54.00 115.00 Td (Remote-Arbeitsfähigkeit und Multi-WAN. Migration von VMware/SAN auf Proxmox/Ceph, Modernisierung) Tj ET
-BT /F1 9.40 Tf 54.00 102.50 Td (der Windows-Serverlandschaft, Aufbau hochverfügbarer Basisservices,) Tj ET
-BT /F1 9.40 Tf 54.00 90.00 Td (Microsoft-365-Hybridarchitektur, Exchange-Online-Migration, Entra-ID-Integration, Privileged-) Tj ET
-BT /F1 9.40 Tf 54.00 77.50 Td (Access-Modell und MFA-Rollout.) Tj ET
-BT /F1 8 Tf 481 28 Td (Seite 1 / 2) Tj ET
-Q
+BT /F1 9.40 Tf 54.00 679.00 Td (Vorstandsmitglied für Systemarchitektur und DevOps bei der DEGIT Deutsche Geschäfts- und IT-) Tj ET
+BT /F1 9.40 Tf 54.00 666.50 Td (Berater AG mit über 10 Jahren IT-Erfahrung. Schwerpunkt auf hochverfügbaren Cloud-, On-Prem-) Tj ET
+BT /F1 9.40 Tf 54.00 654.00 Td (und Hybrid-Infrastrukturen, Proxmox/Ceph, Azure, Microsoft 365, Automatisierung, CI/CD und) Tj ET
+BT /F1 9.40 Tf 54.00 641.50 Td (GitOps.) Tj ET
+BT /F1 9.40 Tf 54.00 625.00 Td (Ich begleite Architektur, Migration und Betrieb mit Fokus auf Sicherheit, Wiederholbarkeit) Tj ET
+BT /F1 9.40 Tf 54.00 612.50 Td (und nachvollziehbare Betriebsprozesse.) Tj ET
+BT /F2 13.00 Tf 54.00 587.00 Td (Kernkompetenzen) Tj ET
+BT /F1 9.40 Tf 66.00 569.00 Td (- Systemarchitektur & Design: Hochverfügbare On-Prem- und Cloud-Infrastrukturen,) Tj ET
+BT /F1 9.40 Tf 66.00 556.50 Td (  Redundanzkonzepte, Skalierbarkeit.) Tj ET
+BT /F1 9.40 Tf 66.00 540.00 Td (- Infrastructure as Code & GitOps: Automatisierte Deployments, Versionskontrolle für) Tj ET
+BT /F1 9.40 Tf 66.00 527.50 Td (  Infrastruktur, Terraform und Ansible.) Tj ET
+BT /F1 9.40 Tf 66.00 511.00 Td (- DevOps & CI/CD: Deployment-Pipelines von VMs bis Applikationen, GitOps-Workflows) Tj ET
+BT /F1 9.40 Tf 66.00 498.50 Td (  und Provisionierungsautomation.) Tj ET
+BT /F1 9.40 Tf 66.00 482.00 Td (- Cloud-Transformation & Migration: Hybrid-Setups, VMware-zu-Proxmox/Ceph-) Tj ET
+BT /F1 9.40 Tf 66.00 469.50 Td (  Migrationen, Azure- und M365-Implementierung.) Tj ET
+BT /F1 9.40 Tf 66.00 453.00 Td (- Monitoring & Observability: Prometheus, Loki, Grafana, Logging, Alerting und) Tj ET
+BT /F1 9.40 Tf 66.00 440.50 Td (  Performance-Optimierung.) Tj ET
+BT /F1 9.40 Tf 66.00 424.00 Td (- High Availability & Security: Disaster Recovery, Zero-Trust Security, Backup-) Tj ET
+BT /F1 9.40 Tf 66.00 411.50 Td (  Strategien, DNS- und Netzwerkarchitektur.) Tj ET
+BT /F2 13.00 Tf 54.00 387.00 Td (Berufserfahrung) Tj ET
+BT /F2 10.20 Tf 54.00 369.00 Td (04.2026 - heute | DEGIT Deutsche Geschäfts- und IT-Berater AG | Vorstandsmitglied für Systemarchitektur und DevOps) Tj ET
+BT /F1 9.40 Tf 54.00 355.00 Td (Verantwortung für Systemarchitektur, Plattformstrategie und DevOps-Prozesse. Konzeption) Tj ET
+BT /F1 9.40 Tf 54.00 342.50 Td (robuster, automatisierbarer Infrastruktur- und Betriebsmodelle. Technische Steuerung von) Tj ET
+BT /F1 9.40 Tf 54.00 330.00 Td (Architekturentscheidungen, Automatisierung und Plattformbetrieb.) Tj ET
+BT /F2 10.20 Tf 54.00 313.50 Td (07.2024 - heute | ATIS systems GmbH | Systemarchitekt und DevOps Engineer) Tj ET
+BT /F1 9.40 Tf 54.00 299.50 Td (Planung von Netzwerk- und Rechenzentrumsarchitekturen inklusive Strom-, Klima-, Rack- und) Tj ET
+BT /F1 9.40 Tf 54.00 287.00 Td (Kapazitätsplanung. Design und Betrieb georedundanter Proxmox-/Ceph-Cluster über) Tj ET
+BT /F1 9.40 Tf 54.00 274.50 Td (Layer-2-/Layer-3- und Dark-Fibre-Anbindungen. OPNsense HA-Firewall-Architekturen,) Tj ET
+BT /F1 9.40 Tf 54.00 262.00 Td (ransomware-resiliente Backup-Konzepte, VMware-zu-Proxmox-Migrationen und automatisierte) Tj ET
+BT /F1 9.40 Tf 54.00 249.50 Td (Rocky Linux/RHEL Provisionierung.) Tj ET
+BT /F2 10.20 Tf 54.00 233.00 Td (02.2023 - 06.2026 | Dominik Lenhardt IT-Services | Selbständige Tätigkeit) Tj ET
+BT /F1 9.40 Tf 54.00 219.00 Td (Selbständige Tätigkeit als IT-Dienstleister, geschlossen zum 30.06.2026. Planung, Aufbau und) Tj ET
+BT /F1 9.40 Tf 54.00 206.50 Td (Betrieb heterogener Kundenumgebungen in On-Prem-, Cloud-only- und Hybrid-Szenarien.) Tj ET
+BT /F1 9.40 Tf 54.00 194.00 Td (M365-Tenants mit Intune, Linux-Plattformdienste, Python-Integrationen, georedundante) Tj ET
+BT /F1 9.40 Tf 54.00 181.50 Td (Proxmox-Plattformen und Docker Swarm.) Tj ET
+BT /F1 8.00 Tf 481.00 28.00 Td (Seite 1 / 2) Tj ET
 endstream
 endobj
 6 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
-<< /Length 3709 >>
+<< /Length 4174 >>
 stream
-q
 BT /F2 10.00 Tf 54.00 788.00 Td (Dominik Lenhardt - CV) Tj ET
 0.48 0.72 0.85 RG 1 w 54 772.00 m 541 772.00 l S
-BT /F2 10.20 Tf 54.00 754.00 Td (11.2022 - heute | Die Schlosszwerge e.V. | Ehrenamtliches Vorstandsmitglied) Tj ET
-BT /F1 9.40 Tf 54.00 740.00 Td (Volldigitalisierung der Kindertagesstätte mit Microsoft 365, Exchange Online, SharePoint, Teams,) Tj ET
-BT /F1 9.40 Tf 54.00 727.50 Td (Warenwirtschafts- und Personalverwaltungssystemen, Zero-Trust Security, automatisiertem) Tj ET
-BT /F1 9.40 Tf 54.00 715.00 Td (Backupmanagement und Intune-Geräteverwaltung.) Tj ET
-BT /F2 10.20 Tf 54.00 698.50 Td (01.2017 - 03.2023 | ATLAS Dienstleistungen für Vermögensberatung GmbH | Linux System- und Azure Cloud Administrator) Tj ET
-BT /F1 9.40 Tf 54.00 684.50 Td (Planung, Implementierung und Betrieb hochverfügbarer Basisdienste, Monitoring mit) Tj ET
-BT /F1 9.40 Tf 54.00 672.00 Td (Prometheus/Grafana auf VMware, Azure Automation mit PowerShell, Ansible, Terraform und Bicep,) Tj ET
-BT /F1 9.40 Tf 54.00 659.50 Td (Administration mehrerer M365-Tenants mit bis zu 30.000 Benutzern sowie Self-Service-Provisioning) Tj ET
-BT /F1 9.40 Tf 54.00 647.00 Td (mit Foreman und Puppet.) Tj ET
-BT /F2 10.20 Tf 54.00 630.50 Td (08.2014 - 01.2017 | ATLAS Dienstleistungen für Vermögensberatung GmbH | Ausbildung) Tj ET
-BT /F1 9.40 Tf 54.00 616.50 Td (Ausbildung zum Fachinformatiker für Systemintegration. Projektarbeit: automatisiertes VMware-) Tj ET
-BT /F1 9.40 Tf 54.00 604.00 Td (Deployment mittels Foreman und Puppet.) Tj ET
-BT /F2 13.00 Tf 54.00 579.50 Td (Auszug Projekte) Tj ET
-BT /F1 9.40 Tf 66.00 561.50 Td (- 2025: Open-Source-Basisdienst-Cluster mit Docker Swarm für IdP, PKI, Mail und) Tj ET
-BT /F1 9.40 Tf 66.00 549.00 Td (  Management-Systeme.) Tj ET
-BT /F1 9.40 Tf 66.00 532.50 Td (- 2025: Mandantenfähiger Proxmox-/Ceph-Cluster mit OPNsense HA über mehrere Standorte.) Tj ET
-BT /F1 9.40 Tf 66.00 516.00 Td (- 2024: Migration von klassischer AD-Struktur zu Entra ID und Intune.) Tj ET
-BT /F1 9.40 Tf 66.00 499.50 Td (- 2024: Automatisiertes Ansible-Inventory-Template zum Deployment von Kundenumgebungen.) Tj ET
-BT /F1 9.40 Tf 66.00 483.00 Td (- 2023: Hochverfügbarer Proxmox-/Ceph-Cluster mit automatisiertem VM-Deployment.) Tj ET
-BT /F1 9.40 Tf 66.00 466.50 Td (- 2023: Hochverfügbares Netzwerk über drei Standorte mit Multi-WAN-Anbindung.) Tj ET
-BT /F1 9.40 Tf 66.00 450.00 Td (- 2022: Aufbau und Betrieb der Monitoring-Infrastruktur in der Azure Cloud.) Tj ET
-BT /F1 9.40 Tf 66.00 433.50 Td (- 2021: Ablösung von Zabbix durch Consul, Prometheus und Grafana.) Tj ET
-BT /F1 9.40 Tf 66.00 417.00 Td (- 2019: Neuaufbau und Betrieb einer redundanten Proxy-Server-Infrastruktur.) Tj ET
-BT /F1 9.40 Tf 66.00 400.50 Td (- 2017: Neuaufbau und Betrieb einer hochverfügbaren DNS-Infrastruktur.) Tj ET
-BT /F1 9.40 Tf 66.00 384.00 Td (- 2016: Automatisiertes VM-Deployment mit VMware, Foreman und Puppet.) Tj ET
-BT /F2 13.00 Tf 54.00 359.50 Td (Weiterbildung) Tj ET
-BT /F1 9.40 Tf 54.00 341.50 Td (Linux Grundlagen, ITIL Foundation, Microsoft Azure Fundamentals \(AZ-900\), Microsoft Azure) Tj ET
-BT /F1 9.40 Tf 54.00 329.00 Td (Administrator \(AZ-104\), Microsoft Azure Designing and Implementing Microsoft DevOps Solutions) Tj ET
-BT /F1 9.40 Tf 54.00 316.50 Td (\(AZ-400\), GitHub Administrator.) Tj ET
-BT /F2 13.00 Tf 54.00 292.00 Td (Kontakt) Tj ET
-BT /F1 9.40 Tf 66.00 274.00 Td (- E-Mail: dominik@lenmail.de) Tj ET
-BT /F1 9.40 Tf 66.00 257.50 Td (- GitHub: github.com/OnkelDom) Tj ET
-BT /F1 9.40 Tf 66.00 241.00 Td (- Xing: xing.com/profile/Dominik_Lenhardt/cv/) Tj ET
-BT /F1 9.40 Tf 66.00 224.50 Td (- LinkedIn: linkedin.com/in/dominik-lenhardt-086645226) Tj ET
-BT /F1 8 Tf 481 28 Td (Seite 2 / 2) Tj ET
-Q
+BT /F2 10.20 Tf 54.00 754.00 Td (04.2023 - 06.2024 | RCW Reifengroßhandel GmbH | Leiter IT) Tj ET
+BT /F1 9.40 Tf 54.00 740.00 Td (Modernisierung einer Netzwerklandschaft über drei Standorte mit Dual-Stack, WLAN,) Tj ET
+BT /F1 9.40 Tf 54.00 727.50 Td (Segmentierung, Remote-Arbeitsfähigkeit und Multi-WAN. Migration von VMware/SAN auf) Tj ET
+BT /F1 9.40 Tf 54.00 715.00 Td (Proxmox/Ceph, Modernisierung der Windows-Serverlandschaft, Microsoft-365-Hybridarchitektur,) Tj ET
+BT /F1 9.40 Tf 54.00 702.50 Td (Exchange-Online-Migration, Entra-ID-Integration, Privileged-Access-Modell und MFA-Rollout.) Tj ET
+BT /F2 10.20 Tf 54.00 686.00 Td (11.2022 - heute | Die Schlosszwerge e.V. | Ehrenamtliches Vorstandsmitglied) Tj ET
+BT /F1 9.40 Tf 54.00 672.00 Td (Volldigitalisierung der Kindertagesstätte mit Microsoft 365, Exchange Online, SharePoint,) Tj ET
+BT /F1 9.40 Tf 54.00 659.50 Td (Teams, Warenwirtschafts- und Personalverwaltungssystemen, Zero-Trust Security,) Tj ET
+BT /F1 9.40 Tf 54.00 647.00 Td (automatisiertem Backupmanagement und Intune-Geräteverwaltung.) Tj ET
+BT /F2 10.20 Tf 54.00 630.50 Td (01.2017 - 03.2023 | ATLAS Dienstleistungen für Vermögensberatung GmbH | Linux System- und Azure Cloud Administrator) Tj ET
+BT /F1 9.40 Tf 54.00 616.50 Td (Planung, Implementierung und Betrieb hochverfügbarer Basisdienste, Monitoring mit) Tj ET
+BT /F1 9.40 Tf 54.00 604.00 Td (Prometheus/Grafana auf VMware, Azure Automation mit PowerShell, Ansible, Terraform und) Tj ET
+BT /F1 9.40 Tf 54.00 591.50 Td (Bicep, Administration mehrerer M365-Tenants mit bis zu 30.000 Benutzern sowie Self-Service-) Tj ET
+BT /F1 9.40 Tf 54.00 579.00 Td (Provisioning mit Foreman und Puppet.) Tj ET
+BT /F2 10.20 Tf 54.00 562.50 Td (08.2014 - 01.2017 | ATLAS Dienstleistungen für Vermögensberatung GmbH | Ausbildung) Tj ET
+BT /F1 9.40 Tf 54.00 548.50 Td (Ausbildung zum Fachinformatiker für Systemintegration. Projektarbeit: automatisiertes) Tj ET
+BT /F1 9.40 Tf 54.00 536.00 Td (VMware-Deployment mittels Foreman und Puppet.) Tj ET
+BT /F2 13.00 Tf 54.00 510.50 Td (Auszug Projekte) Tj ET
+BT /F1 9.40 Tf 66.00 492.50 Td (- 2025: Open-Source-Basisdienst-Cluster mit Docker Swarm für IdP, PKI, Mail und) Tj ET
+BT /F1 9.40 Tf 66.00 480.00 Td (  Management-Systeme.) Tj ET
+BT /F1 9.40 Tf 66.00 464.50 Td (- 2025: Mandantenfähiger Proxmox-/Ceph-Cluster mit OPNsense HA über mehrere) Tj ET
+BT /F1 9.40 Tf 66.00 452.00 Td (  Standorte.) Tj ET
+BT /F1 9.40 Tf 66.00 436.50 Td (- 2024: Migration von klassischer AD-Struktur zu Entra ID und Intune.) Tj ET
+BT /F1 9.40 Tf 66.00 421.00 Td (- 2024: Automatisiertes Ansible-Inventory-Template zum Deployment von) Tj ET
+BT /F1 9.40 Tf 66.00 408.50 Td (  Kundenumgebungen.) Tj ET
+BT /F1 9.40 Tf 66.00 393.00 Td (- 2023: Hochverfügbarer Proxmox-/Ceph-Cluster mit automatisiertem VM-Deployment.) Tj ET
+BT /F1 9.40 Tf 66.00 377.50 Td (- 2023: Hochverfügbares Netzwerk über drei Standorte mit Multi-WAN-Anbindung.) Tj ET
+BT /F1 9.40 Tf 66.00 362.00 Td (- 2022: Aufbau und Betrieb der Monitoring-Infrastruktur in der Azure Cloud.) Tj ET
+BT /F1 9.40 Tf 66.00 346.50 Td (- 2021: Ablösung von Zabbix durch Consul, Prometheus und Grafana.) Tj ET
+BT /F1 9.40 Tf 66.00 331.00 Td (- 2017: Neuaufbau und Betrieb einer hochverfügbaren DNS-Infrastruktur.) Tj ET
+BT /F2 13.00 Tf 54.00 307.50 Td (Weiterbildung) Tj ET
+BT /F1 9.40 Tf 54.00 289.50 Td (Linux Grundlagen, ITIL Foundation, Microsoft Azure Fundamentals \(AZ-900\), Microsoft Azure) Tj ET
+BT /F1 9.40 Tf 54.00 277.00 Td (Administrator \(AZ-104\), Microsoft Azure Designing and Implementing Microsoft DevOps) Tj ET
+BT /F1 9.40 Tf 54.00 264.50 Td (Solutions \(AZ-400\), GitHub Administrator.) Tj ET
+BT /F2 13.00 Tf 54.00 239.00 Td (Kontakt) Tj ET
+BT /F1 9.40 Tf 66.00 221.00 Td (- E-Mail: dominik@lenmail.de) Tj ET
+BT /F1 9.40 Tf 66.00 204.50 Td (- GitHub: github.com/OnkelDom) Tj ET
+BT /F1 9.40 Tf 66.00 188.00 Td (- Xing: xing.com/profile/Dominik_Lenhardt/cv/) Tj ET
+BT /F1 9.40 Tf 66.00 171.50 Td (- LinkedIn: linkedin.com/in/dominik-lenhardt-086645226) Tj ET
+BT /F1 8.00 Tf 481.00 28.00 Td (Seite 2 / 2) Tj ET
 endstream
 endobj
 8 0 obj
@@ -119,17 +112,17 @@ endobj
 endobj
 xref
 0 9
-0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000127 00000 n 
-0000000224 00000 n 
-0000000326 00000 n 
-0000005280 00000 n 
-0000005416 00000 n 
-0000009177 00000 n 
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000121 00000 n
+0000000218 00000 n
+0000000320 00000 n
+0000004500 00000 n
+0000004636 00000 n
+0000008862 00000 n
 trailer
 << /Size 9 /Root 1 0 R >>
 startxref
-9313
+8998
 %%EOF
