@@ -19,7 +19,7 @@
         <a href="#about">Über mich</a>
         <a href="#skills">Skills</a>
         <a href="#cv">CV</a>
-        <a href="#projekte">Projekte</a>
+        <a href="#projekte">Eigenprojekte</a>
         <a href="#kontakt">Kontakt</a>
       </div>
     </nav>
@@ -100,8 +100,14 @@
         </article>
 
         <article>
-          <p class="date">07.2024 - heute</p>
-          <h3>ATIS systems GmbH, Systemarchitekt &amp; DevOps Engineer</h3>
+          <p class="date">2026</p>
+          <h3>RCW Reifengroßhandel GmbH, Projekt Dual-Stack-Migration</h3>
+          <p>Umstellung der WAN-Anbindungen, der IT-Infrastruktur und der Anwendungen auf den Parallelbetrieb mit IPv4 und IPv6.</p>
+        </article>
+
+        <article>
+          <p class="date">07.2024 - 31.12.2026</p>
+          <h3>ATIS systems GmbH, angestellter Systemarchitekt &amp; DevOps Engineer</h3>
           <ul>
             <li>Planung und Umsetzung von Netzwerk- und Rechenzentrumsarchitekturen inklusive Strom-, Klima- und Rack-/Kapazitätsplanung.</li>
             <li>Design und Betrieb georedundanter Proxmox-/Ceph-Cluster über Layer-2-/Layer-3- und Dark-Fibre-Anbindungen.</li>
@@ -113,13 +119,23 @@
             <li>Git-versionierte Baseline-Infrastruktur mit DNS, NTP, PKI, IdP, Loadbalancern und Open-Source-Komponenten wie Smallstep CA, Authentik, Unbound, Chrony, HAProxy und Keepalived.</li>
             <li>Planung einer hochverfügbaren Observability-Plattform mit Prometheus, Loki und Grafana.</li>
           </ul>
+          <dl class="project-years">
+            <div>
+              <dt>2025</dt>
+              <dd>Planung und Umsetzung eines mandantenfähigen Proxmox-/Ceph-Clusters mit OPNsense HA über mehrere Standorte.</dd>
+            </div>
+            <div>
+              <dt>2024</dt>
+              <dd>Automatisierte Bereitstellung von Kundenumgebungen mit einer Ansible-Inventory-Vorlage.</dd>
+            </div>
+          </dl>
         </article>
 
         <article>
           <p class="date">03.2023 - 06.2026</p>
-          <h3>Dominik Lenhardt IT-Services, Selbständige Tätigkeit</h3>
+          <h3>Dominik Lenhardt IT-Services, nebenberufliche Selbständigkeit</h3>
           <ul>
-            <li>Selbständige Tätigkeit als IT-Dienstleister; geschlossen zum 30.06.2026.</li>
+            <li>Das eigene IT-Dienstleistungsunternehmen endete zum 30.06.2026. Die Kundenarbeit führe ich über die DEGIT fort.</li>
             <li>Planung, Aufbau und Betrieb heterogener Kundenumgebungen in On-Prem-, Cloud-only- und Hybrid-Szenarien.</li>
             <li>HA On-Prem Collaboration-Umgebung auf Synology mit Directory Server, Clients und MailPlus im Dual-Stack-Betrieb.</li>
             <li>Microsoft-365-Cloud-only-Tenants inklusive Endpoint- und Policy-Management mit Intune.</li>
@@ -133,13 +149,22 @@
           <p class="date">04.2023 - 06.2024</p>
           <h3>RCW Reifengroßhandel GmbH, Leiter IT</h3>
           <ul>
-            <li>Modernisierung einer instabilen Netzwerklandschaft über drei Standorte mit Dual-Stack, WLAN, Segmentierung, Remote-Arbeitsfähigkeit und Multi-WAN.</li>
-            <li>Migration von VMware und SAN auf eine hochverfügbare Proxmox-/Ceph-Clusterumgebung.</li>
             <li>Konsolidierung und Modernisierung der Serverlandschaft von Windows Server 2008 auf Windows Server 2019+.</li>
-            <li>Aufbau hochverfügbarer Basisservices im Dual-Stack-Betrieb, unter anderem DNS, NTP und Loadbalancer.</li>
-            <li>Microsoft-365-Hybridarchitektur, Exchange-Online-Migration und Entra-ID-Integration.</li>
+            <li>Aufbau hochverfügbarer Basisdienste für DNS, NTP und Lastverteilung. Vorbereitung der späteren Dual-Stack-Migration.</li>
+            <li>Migration zu Exchange Online.</li>
             <li>Einführung eines Tiering-/Privileged-Access-Modells und MFA für Benutzer- und Administrationszugänge.</li>
           </ul>
+          <dl class="project-years">
+            <div>
+              <dt>2024</dt>
+              <dd>Aufbau einer hybriden Microsoft-365-Umgebung mit lokalem Active Directory, Entra ID für die Identitätsverwaltung und Intune für die Geräteverwaltung.</dd>
+            </div>
+            <div>
+              <dt>2023</dt>
+              <dd>Modernisierung des Netzes an drei Standorten mit Multi-WAN, WLAN, Segmentierung und Remote-Zugriff.</dd>
+              <dd>Migration von VMware und SAN auf einen hochverfügbaren Proxmox-/Ceph-Cluster mit automatisierter VM-Bereitstellung.</dd>
+            </div>
+          </dl>
         </article>
 
         <article>
@@ -157,19 +182,62 @@
           <p class="date">01.2017 - 03.2023</p>
           <h3>ATLAS Dienstleistungen für Vermögensberatung GmbH, Linux System- und Azure Cloud Administrator</h3>
           <ul>
-            <li>Planung, Implementierung und Betrieb hochverfügbarer Basisdienste wie Proxy, DNS, NTP sowie Daten-Ein- und -Ausgangssysteme.</li>
+            <li>Betrieb von NTP- und Datentransferdiensten.</li>
             <li>Hochverfügbares Monitoring mit Prometheus und Grafana auf redundantem VMware-Cluster inklusive Loadbalancer- und Reverse-Proxy-Schicht.</li>
             <li>Azure-Cloud-Administration und Automation mit PowerShell, Ansible, Terraform und Bicep.</li>
             <li>Administration mehrerer Microsoft-365-Tenants mit bis zu 30.000 Benutzern.</li>
             <li>Self-Service-Provisioning für CentOS-Server-VMs auf VMware mit Foreman und Puppet.</li>
             <li>Administration und Pflege des GitHub-Enterprise-Teams inklusive automatischer Schadcodeprüfung.</li>
           </ul>
+          <dl class="project-years">
+            <div>
+              <dt>2022</dt>
+              <dd>Aufbau und Betrieb des Azure-Monitorings.</dd>
+            </div>
+            <div>
+              <dt>2021</dt>
+              <dd>Ablösung von Zabbix durch Consul, Prometheus und Grafana.</dd>
+            </div>
+            <div>
+              <dt>2020</dt>
+              <dd>Übernahme und Modernisierung des Zabbix-Monitorings.</dd>
+            </div>
+            <div>
+              <dt>2019</dt>
+              <dd>Neuaufbau und Betrieb der redundanten Proxy-Infrastruktur.</dd>
+            </div>
+            <div>
+              <dt>2017</dt>
+              <dd>Neuaufbau und Betrieb der hochverfügbaren DNS-Infrastruktur.</dd>
+            </div>
+          </dl>
         </article>
 
         <article>
           <p class="date">08.2014 - 01.2017</p>
-          <h3>ATLAS Dienstleistungen für Vermögensberatung GmbH, Ausbildung</h3>
-          <p>Ausbildung zum Fachinformatiker für Systemintegration. Projektarbeit: Einführung eines automatisierten VMware-Deployments mittels Foreman und Puppet.</p>
+          <h3>ATLAS Dienstleistungen für Vermögensberatung GmbH, Ausbildung zum Fachinformatiker für Systemintegration</h3>
+          <dl class="project-years">
+            <div>
+              <dt>2016</dt>
+              <dd>Automatisiertes VMware-Deployment mit Foreman und Puppet als Ausbildungsprojekt.</dd>
+            </div>
+          </dl>
+        </article>
+
+        <article>
+          <p class="date">2009 und 2012</p>
+          <h3>Kundenprojekte für RAe Christian Heinemann</h3>
+          <p>Zu den Kundenprojekten gehörte der Aufbau eines Dual-Stack-Netzes für IPv4 und IPv6.</p>
+          <dl class="project-years">
+            <div>
+              <dt>2012</dt>
+              <dd>Installation der Netzwerkinfrastruktur für ein Sanierungsobjekt.</dd>
+            </div>
+            <div>
+              <dt>2009</dt>
+              <dd>Aufbau eines Netzwerks für acht Arbeitsplätze.</dd>
+            </div>
+          </dl>
         </article>
 
         <article class="compact">
@@ -188,25 +256,11 @@
 
     <section class="section" id="projekte">
       <div class="section-title">
-        <p class="kicker">Projekte</p>
-        <h2>Auszug technischer Projekte</h2>
+        <h2>Eigenprojekte</h2>
       </div>
       <ol class="project-list">
-        <li><span>2025</span> Aufbau eines Open-Source-Basisdienst-Clusters mit Docker Swarm für IdP, PKI, Mail und Management-Systeme.</li>
-        <li><span>2025</span> Planung und Implementierung eines mandantenfähigen Proxmox-/Ceph-Clusters mit OPNsense HA über mehrere Standorte.</li>
-        <li><span>2024</span> Migration von klassischer AD-Struktur zu Entra ID und Intune.</li>
-        <li><span>2024</span> Automatisiertes Ansible-Inventory-Template zum Deployment von Kundenumgebungen.</li>
-        <li><span>2023</span> Hochverfügbarer Proxmox-/Ceph-Cluster mit automatisiertem VM-Deployment.</li>
-        <li><span>2023</span> Hochverfügbares Netzwerk über drei Standorte mit Multi-WAN-Anbindung.</li>
-        <li><span>2022</span> Aufbau und Betrieb der Monitoring-Infrastruktur in der Azure Cloud.</li>
-        <li><span>2021</span> Ablösung von Zabbix durch automatisiertes Monitoring mit Consul, Prometheus und Grafana.</li>
-        <li><span>2020</span> Übernahme, Modernisierung und Betrieb einer Zabbix-Monitoring-Infrastruktur.</li>
-        <li><span>2019</span> Neuaufbau und Betrieb einer redundanten Proxy-Server-Infrastruktur.</li>
-        <li><span>2017</span> Neuaufbau und Betrieb einer hochverfügbaren DNS-Infrastruktur.</li>
-        <li><span>2016</span> Automatisiertes Virtual-Machine-Deployment mit VMware, Foreman und Puppet.</li>
-        <li><span>2015</span> Redundanter Raspberry-Pi-IPv6-Cluster mit automatisiertem DHCP, DNS und PXE.</li>
-        <li><span>2012</span> Installation einer Netzwerkinfrastruktur für ein Sanierungsobjekt.</li>
-        <li><span>2009</span> Aufbau einer Netzwerkinfrastruktur für acht Arbeitsplätze.</li>
+        <li><span>2025</span> <div>Aufbau eines Open-Source-Basisdienst-Clusters mit Docker Swarm für IdP, PKI, Mail und Management-Systeme.</div></li>
+        <li><span>2015</span> <div>Redundanter Raspberry-Pi-Cluster für IPv6 mit automatisiertem DHCP, DNS und PXE.</div></li>
       </ol>
     </section>
 

@@ -255,9 +255,31 @@ h3 {
 .timeline article {
   display: grid;
   grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr);
-  gap: 42px;
+  gap: 10px 42px;
   padding: 28px 0;
   border-top: 1px solid rgba(42, 51, 60, 0.72);
+}
+
+
+.project-years {
+  grid-column: 2;
+  margin: 0;
+}
+
+.project-years > div {
+  display: grid;
+  grid-template-columns: 3.2em minmax(0, 1fr);
+  gap: 0.2em 0.6em;
+  margin-top: 0.35em;
+}
+
+.project-years dt {
+  font-weight: 700;
+}
+
+.project-years dd {
+  grid-column: 2;
+  margin: 0;
 }
 
 .timeline article:first-child {
@@ -457,6 +479,7 @@ h3 {
     gap: 16px;
   }
 
+  .project-years,
   .timeline h3,
   .timeline ul,
   .timeline p:not(.date) {
